@@ -51,7 +51,7 @@ function MyProducts() {
             <tbody>
               {products.map((x) => (
                 <tr key={x.prodid}>
-                  <td>
+                  <td className="text-white">
                     <img
                       width="100"
                       src={"http://localhost:8080/" + x.photo}
@@ -59,9 +59,9 @@ function MyProducts() {
                     />
                     {x.pname}
                   </td>
-                  <td>{x.pcat}</td>
-                  <td>{x.brand}</td>
-                  <td>{x.price}</td>
+                  <td className="text-white">{x.pcat}</td>
+                  <td className="text-white">{x.brand}</td>
+                  <td className="text-white">{x.price}</td>
                   <td>
                     <Link
                       to={"/edit/" + x.prodid}

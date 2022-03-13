@@ -35,7 +35,9 @@ function AdminProfile() {
             <div className="card-body">
               <form onSubmit={handleSubmit}>
                 <div className="form-group form-row">
-                  <label className="col-sm-4 form-control-label">User ID</label>
+                  <label className="col-sm-4 form-control-label text-white">
+                    User ID
+                  </label>
                   <div className="col-sm-8">
                     <input
                       type="text"
@@ -48,7 +50,7 @@ function AdminProfile() {
                   </div>
                 </div>
                 <div className="form-group form-row">
-                  <label className="col-sm-4 form-control-label">
+                  <label className="col-sm-4 form-control-label text-white">
                     User Name
                   </label>
                   <div className="col-sm-8">
@@ -62,7 +64,7 @@ function AdminProfile() {
                   </div>
                 </div>
                 <div className="form-group form-row">
-                  <label className="col-sm-4 form-control-label">
+                  <label className="col-sm-4 form-control-label text-white">
                     Password
                   </label>
                   <div className="col-sm-8">

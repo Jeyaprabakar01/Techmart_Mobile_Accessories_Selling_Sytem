@@ -125,7 +125,7 @@ function AllProduct() {
                       <h5 className="px-2">Brand: {item.brand}</h5>
                       <h5 className="px-2">Category: {item.pcat}</h5>
                       <h5 className="px-2">Seller: {item.sellerName}</h5>
-                      <h5 className="px-2">Price: &#8377; {item.price}</h5>
+                      <h5 className="px-2">Price: &#8360; {item.price}</h5>
                       <input
                         type="number"
                         value={qty}

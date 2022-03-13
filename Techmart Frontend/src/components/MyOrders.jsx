@@ -49,7 +49,7 @@ function MyOrders() {
                   <td>
                     <Moment format="ddd, DD-MMM-YYYY">{x.orderDate}</Moment>
                   </td>
-                  <td>&#8377; {x.payment.amount}</td>
+                  <td>&#8360; {x.payment.amount}</td>
                   <td>
                     <button
                       onClick={(e) => showDetails(x.orderid)}

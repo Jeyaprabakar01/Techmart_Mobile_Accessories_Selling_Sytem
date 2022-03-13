@@ -71,7 +71,7 @@ function AddProduct() {
               )}
             </div>
             <div className="col-sm-6">
-              <h4 className="text-center p-2">Add Product Form</h4>
+              <h4 className="text-center p-2">Add Product </h4>
               <form onSubmit={handleSubmit}>
                 <div className="form-group form-row">
                   <label className="col-sm-4 form-control-label">

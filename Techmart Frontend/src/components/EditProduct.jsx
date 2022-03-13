@@ -62,13 +62,13 @@ function EditProduct() {
           <img width="300" src={"http://127.0.0.1:8887/" + product.photo} />
         </div>
         <div className="col-sm-9">
-          <h4 className="text-center p-2">Edit Product Form (Product ID : )</h4>
+          <h4 className="text-center p-2 text-white">Edit Product </h4>
           <form onSubmit={handleSubmit}>
             <div className="form-group form-row">
-              <label className="col-sm-4 form-control-label">
+              <label className="col-sm-4 form-control-label text-white">
                 Product Name
               </label>
-              <div className="col-sm-8">
+              <div className="col-sm-8 ">
                 <input
                   type="text"
                   name="pname"
@@ -84,7 +84,9 @@ function EditProduct() {
               </div>
             </div>
             <div className="form-group form-row">
-              <label className="col-sm-4 form-control-label">Category</label>
+              <label className="col-sm-4 form-control-label text-white">
+                Category
+              </label>
               <div className="col-sm-8">
                 <select
                   name="pcat"
@@ -108,7 +110,9 @@ function EditProduct() {
               </div>
             </div>
             <div className="form-group form-row">
-              <label className="col-sm-4 form-control-label">Price</label>
+              <label className="col-sm-4 form-control-label text-white">
+                Price
+              </label>
               <div className="col-sm-8">
                 <input
                   type="number"
@@ -125,7 +129,9 @@ function EditProduct() {
               </div>
             </div>
             <div className="form-group form-row">
-              <label className="col-sm-4 form-control-label">Brand</label>
+              <label className="col-sm-4 form-control-label text-white">
+                Brand
+              </label>
               <div className="col-sm-8">
                 <input
                   type="text"

@@ -25,7 +25,9 @@ function Orders() {
     <div className="container-fluid">
       <div className="row">
         <div className="col-sm-7">
-          <h4 className="p-2 text-center text-white">My Purchased Orders</h4>
+          <h4 className="p-2 text-center text-white">
+            Customer Purchased Orders
+          </h4>
           <table className="table table-bordered table-sm table-light table-hover table-striped">
             <thead>
               <tr>
@@ -43,7 +45,7 @@ function Orders() {
                   <td>
                     <Moment format="ddd, DD-MMM-YYYY">{x.orderDate}</Moment>
                   </td>
-                  <td>&#8377; {x.payment.amount}</td>
+                  <td>&#8360; {x.payment.amount}</td>
                   <td>{x.customer.name}</td>
                   <td>
                     <button

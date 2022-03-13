@@ -10,14 +10,14 @@ function ViewCart() {
   const history = useHistory();
   const [address, setAddress] = useState({
     city: "",
-    state: "Delhi",
-    zip: "12324",
-    country: "India",
+    state: "Colombo",
+    zip: "00130",
+    country: "Srilanka",
   });
   const [payment, setPayment] = useState({
-    cardno: "1212444433336666",
-    nameoncard: "Test Name",
-    cvv: "123",
+    cardno: "xxxx xxxx  xxxx xxxx",
+    nameoncard: "Card Holder Name",
+    cvv: "xxx",
     amount: state.cart.reduce((a, b) => a + b.price, 0),
   });
   const deleteItem = (item) => {
@@ -91,9 +91,9 @@ function ViewCart() {
                       />
                       {item.pname}
                     </td>
-                    <td>&#8377; {item.price}</td>
+                    <td>&#8360; {item.price}</td>
                     <td>{item.qty}</td>
-                    <td>&#8377; {item.qty * item.price}</td>
+                    <td>&#8360; {item.qty * item.price}</td>
                     <td>
                       <button
                         onClick={(e) => deleteItem(item)}
@@ -108,7 +108,7 @@ function ViewCart() {
               <tfoot>
                 <tr>
                   <th colSpan="4">Total Amount</th>
-                  <th>&#8377; {state.cart.reduce((a, b) => a + b.price, 0)}</th>
+                  <th>&#8360; {state.cart.reduce((a, b) => a + b.price, 0)}</th>
                 </tr>
               </tfoot>
             </table>
