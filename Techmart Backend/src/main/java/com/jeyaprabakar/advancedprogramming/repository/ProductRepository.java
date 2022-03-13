@@ -15,3 +15,5 @@ public interface ProductRepository extends JpaRepository<Product, Integer> {
 	List<Product> findBySeller(Seller sellerId,Sort sort);
 	List<Product> findByPcatAndSubcat(String pcat,String subcat,Sort sort);
 }
+
+

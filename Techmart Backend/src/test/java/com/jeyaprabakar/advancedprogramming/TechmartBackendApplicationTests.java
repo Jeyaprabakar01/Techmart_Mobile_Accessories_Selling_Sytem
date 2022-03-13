@@ -1,4 +1,4 @@
-package crm;
+package com.jeyaprabakar.advancedprogramming;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
