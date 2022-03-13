@@ -9,6 +9,6 @@ import com.jeyaprabakar.advancedprogramming.model.entity.Order;
 import com.jeyaprabakar.advancedprogramming.model.entity.OrderDetails;
 
 @Repository
-public interface OrderDefailsDao extends JpaRepository<OrderDetails, Integer> {
+public interface OrderDetailRepository extends JpaRepository<OrderDetails, Integer> {
 	List<OrderDetails> findByOrder(Order order);
 }
